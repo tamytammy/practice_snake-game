@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body p {
+  color: #fff;
+  padding: 0.5rem;
+}
+body #myCanvas {
+  border: 5px solid lightgreen;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body #Start {
+  background-color: azure;
+  padding: 0.3rem 1rem;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
